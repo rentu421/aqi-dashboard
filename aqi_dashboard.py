@@ -26,7 +26,7 @@ st.title("Indian City AQI Dashboard")  # Set the page title
 city = st.text_input("Enter an Indian city name (e.g., Delhi, Mumbai):")
 
 # Your AQICN API token (replace with the token you got)
-API_TOKEN = st.secrets["9194074afb7a02d71d038fa2a8120c7350946d04"]
+API_TOKEN = st.secrets["AQICN_TOKEN"]
 
 # Check if the user entered a city
 if city:
