@@ -27,7 +27,7 @@ city = st.text_input("Enter an Indian city name (e.g., Delhi, Mumbai):")
 
 # Your AQICN API token (replace with the token you got)
 API_TOKEN = st.secrets["AQICN_TOKEN"]
-
+st.write("Secrets loaded successfully")
 # Check if the user entered a city
 if city:
     # Call the get_aqi function to fetch AQI
