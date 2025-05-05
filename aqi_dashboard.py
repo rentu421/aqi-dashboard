@@ -51,7 +51,7 @@ st.title("Indian City AQI Dashboard")
 city = st.text_input("Enter an Indian city name or specific location (e.g., Delhi, Major Dhyan Chand National Stadium, Delhi, Delhi, India):", value="Delhi")
 
 # Load API token from secrets
-API_TOKEN = st.secrets["api"]["token"]
+API_TOKEN = st.secrets["AQICN_TOKEN"]
 
 # City coordinates (simplified for major cities and specific locations)
 city_coords = {
