@@ -1,2 +1,5 @@
-streamlit
-requests
+streamlit==1.36.0
+folium==0.17.0
+streamlit-folium==0.22.0
+requests==2.32.3
+pandas==2.2.2
